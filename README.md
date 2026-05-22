@@ -91,13 +91,8 @@ Defines the eBPF ISA following RFC 9669:
 
 ## Example: Verified Packet Filters (`PacketFilters.lean`)
 
-`PacketFilters.lean` contains a complete end-to-end verification of a
-6-instruction ARP filter program:
-
-1. The program is written using `Instr` constructors
-2. `Verifies` is discharged by `decide`
-3. Pre/postconditions are stated as separation-logic assertions
-4. The VCG machinery assembles the proof automatically
+`PacketFilters.lean` contains a complete end-to-end verification of two packet
+filters: one for ARP and other for TCP/IPv4.
 
 ## Building
 
