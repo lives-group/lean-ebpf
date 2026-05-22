@@ -101,15 +101,4 @@ lake build
 ```
 
 Requires [Lean 4](https://leanprover.github.io/) and
-[Mathlib4](https://leanprover-community.github.io/mathlib4_docs/). The project
-is tested in CI via the
-[`leanprover/lean-action`](https://github.com/leanprover/lean-action) workflow
-and documentation is published via
-[`leanprover-community/docgen-action`](https://github.com/leanprover-community/docgen-action).
-
-## References
-
-- RFC 9669: Dave Thaler, _BPF Instruction Set Architecture (ISA)_, IETF,
-  October 2024.
-- Reynolds, J.C., _Separation Logic: A Logic for Shared Mutable Data
-  Structures_, LICS 2002.
+[Mathlib4](https://leanprover-community.github.io/mathlib4_docs/).
